@@ -5,7 +5,7 @@ export default function AboutFacultyCard({ img, name, post }) {
   return (
     <div className="w-full p-2 group mb-3">
       <div className="w-11/12 flex flex-col mx-auto  ">
-        <div className="w-full overflow-hidden rounded-xl border-2 border-[#9920e9] shadow-[0_20px_20px_rgba(0,_130,_9,_0.7)]">
+        <div className="w-full overflow-hidden rounded-xl border-2 shadow-[0_20px_20px_#a958f4]">
           <img
             src={img}
             alt="faculty"
